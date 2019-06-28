@@ -1,0 +1,75 @@
+*-*-*-*-*-*-*-*-N-E-W- -S-E-S-S-I-O-N-*-*-*-*-*-*-*-*
+2018-10-18 17:30:10:676953,Instruction:,"NumberOfStart:
+1
+ChildName:
+everyone
+HandMoveSpeed:
+0.13
+ReadDelay:
+0
+ReadSpeed:
+80
+ReactionDelay:
+1
+HandPoint:
+Point
+WhichPage:
+Left
+CorrectionState: Default=False
+False
+bookSelection:
+5
+
+
+
+
+# Hand move speed and read delay possible combinations 
+
+Beginner Level: 0.05 0.1 0.7 1
+
+
+Medium Level: 0.06 0.1 85 1 
+
+Medium Level: 0.075 0.03 80 1 
+
+High Level: 0.095 0 90 1
+
+
+////////////////////////////////////////////////////
+NumberOfStart:
+2
+ChildName:
+test
+HandMoveSpeed:
+0.13
+ReadDelay:
+0
+ReadSpeed:
+60
+ReactionDelay:
+1
+HandPoint:
+
+WhichPage:
+Right
+CorrectionState: Default=False
+False
+//////////////////////////////////////////////////////////////////
+NumberOfStart:
+2
+ChildName:
+test
+HandMoveSpeed:
+0.13
+ReadDelay:
+0
+ReadSpeed:
+80
+ReactionDelay:
+1
+HandPoint:
+
+WhichPage:
+Left
+CorrectionState: Default=False
+False"

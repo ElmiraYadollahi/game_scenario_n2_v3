@@ -1,0 +1,11 @@
+<launch>  
+  <node name="main_scenario" pkg="scenario_n2_v2" type="main_scenario.py" output="screen" >
+     <param name="initialization_file" textfile="/home/yadollah/catkin_ws/src/abacus_scenario/scenario_n2_v2/nodes/TextFiles/customized_instruction.txt" />
+     <param name="production_numbers_series1" textfile="/home/yadollah/catkin_ws/src/abacus_scenario/scenario_n2_v2/nodes/TextFiles/production_series1.txt" />
+     <param name="comprehension_numbers_series1" textfile="/home/yadollah/catkin_ws/src/abacus_scenario/scenario_n2_v2/nodes/TextFiles/comprehension_series1.txt" />
+     <param name="production_numbers_series3" textfile="/home/yadollah/catkin_ws/src/abacus_scenario/scenario_n2_v2/nodes/TextFiles/stories_stage_8.txt" />
+     <param name="production_numbers_series4" textfile="/home/yadollah/catkin_ws/src/abacus_scenario/scenario_n2_v2/nodes/TextFiles/all_stories_one_en.txt" />
+
+  </node>
+
+</launch>

@@ -1,0 +1,80 @@
+NumberOfStart:
+1
+ChildName:
+Elmira
+groupCode: (AE, AD, EA, DA)
+AE
+childTurnCondition: (1, 2, 3)
+1
+robotTurnCondition: (0, 1, 2)
+1
+childTaskNumber: (1, 2, 3, 4)
+1
+robotTaskNumber: (0, 1, 2, 3, 4)
+1
+WhichPage:
+Left
+CorrectionState: Default=False
+False
+bookSelection:
+5
+
+groupNumber:
+AE
+orderCounter:
+0
+productionSeries:
+0
+
+
+
+# Hand move speed and read delay possible combinations 
+
+Beginner Level: 0.05 0.1 0.7 1
+
+
+Medium Level: 0.06 0.1 85 1 
+
+Medium Level: 0.075 0.03 80 1 
+
+High Level: 0.095 0 90 1
+
+
+////////////////////////////////////////////////////
+NumberOfStart:
+2
+ChildName:
+test
+HandMoveSpeed:
+0.13
+ReadDelay:
+0
+ReadSpeed:
+60
+ReactionDelay:
+1
+HandPoint:
+
+WhichPage:
+Right
+CorrectionState: Default=False
+False
+//////////////////////////////////////////////////////////////////
+NumberOfStart:
+2
+ChildName:
+test
+HandMoveSpeed:
+0.13
+ReadDelay:
+0
+ReadSpeed:
+80
+ReactionDelay:
+1
+HandPoint:
+
+WhichPage:
+Left
+CorrectionState: Default=False
+False
